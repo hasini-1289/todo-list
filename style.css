@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: burlywood;
+}
+.container {
+    width: 350px;
+    margin: 100px auto;
+    background: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+}
+.input-section {
+    background-color: pink;
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+    padding: 8px;
+    background: #eee;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
